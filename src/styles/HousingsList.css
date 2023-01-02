@@ -1,0 +1,29 @@
+.housings_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px;
+  border-radius: 25px;
+  background: #f7f7f7;
+}
+
+.housing_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
+  padding: 20px;
+  background: #ff6060
+    linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.housing_card__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
