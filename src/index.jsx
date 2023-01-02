@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
+import Housing from './pages/Housing'
 import NoMatch from './pages/NoMatch'
 
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: 'a-propos',
     element: <AboutUs />,
+  },
+  {
+    path: 'logement/:id',
+    element: <Housing />,
   },
   {
     path: '*',
