@@ -2,7 +2,7 @@ import Header from '../components/Header'
 
 function AboutUs() {
   return (
-    <div>
+    <div className="content">
       <Header />
       <h1>A propos</h1>
     </div>
